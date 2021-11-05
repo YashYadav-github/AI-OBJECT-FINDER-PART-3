@@ -1,0 +1,43 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background='background.jpeg'>
+<center>
+
+    <div class="btn btn-info heading">
+        <h1 >AI OBJECT FINDER<br>
+            <h3 class="note">Note : The input name which you will give shoud match the names present in CoCo model then only it will detect</h3>
+        </h1>
+    </div>
+    <br><Br>
+    <div class="input_div">
+            <h3>Object Name : </h3>
+            <input type="text" id="input_box" placeholder="Object Name">
+    </div>
+    <br>
+  <button onclick="start()" class="btn btn-success" id="start">Start</button>
+  <br>
+  <h3 id="status" class="btn btn-danger"></h3>
+  <h3 id="object_status" class="btn btn-warning"></h3>
+  <br>
+</center>
+
+
+<script src="main.js"></script>
+
+</body>
+<html>
+<head>

@@ -1,0 +1,41 @@
+body{
+    background-size:cover;
+}
+.heading{
+    width: 100%;
+}
+
+.heading h1{
+    font-size: 23px;
+}
+
+.heading h3{
+    font-size: 18px;
+}
+
+.input_div h3{
+    color: white;
+}
+
+.input_div input{
+    width: 30%;
+    height: 35px;
+}
+#number_of_objects, #status
+{
+    font-size:18px;
+}
+canvas
+{
+  border: 2px solid white;
+  border-radius:10px;
+  margin-top:120px;
+  box-shadow: 5px 5px 5px white;
+  margin-top: 160px;
+}
+#start
+{
+    font-size:18px;
+    width:70px;
+    border-radius:10px;
+}
